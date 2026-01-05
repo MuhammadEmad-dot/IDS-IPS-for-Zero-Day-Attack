@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+
+# Dataset (4.4GB - too big for GitHub)
+dataset/
+
+# AI Model (2.4MB - too big)
+ids_model.pkl
+
+# Generated Logs
+*.log
+ids_ips_log.log
+threat_detections.log
+blocked_ips.log
+
+# Generated Reports
+*.txt
+*.json
+FINAL_PROJECT_VALIDATION.txt
+ZERO_DAY_BLOCKING_REPORT.txt
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code Settings
+.vscode/
